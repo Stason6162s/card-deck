@@ -1,0 +1,89 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  font-family: "Oswald", sans-serif;
+}
+:root{
+    --item-card-height:auto;
+    --item-card-widht:250px;
+}
+.card {
+  user-select: none;
+  width: var(--item-card-widht);
+  padding: 10px;
+  margin: 10px;
+  border: #fff solid 2px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: transform 500ms ease;
+}
+hr {
+  max-width: 80%;
+  border: none;
+  height: 0;
+  border-top: 1px solid #333;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 16px 15px 15px darkgrey;
+  cursor: pointer;
+}
+.card-deck {
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.card-list {
+  height: var(--item-card-height);
+  display: flex;
+  align-items: baseline;
+  padding: 30px;
+  justify-content: space-between;
+  overflow-x:scroll;
+}
+.card-list-item{
+  width: var(--item-card-widht);
+  flex: 0 0 auto;
+  padding: 20px;
+  display: inline-block;
+}
+.btn-deck{
+  /* border: #333 solid 1px; */
+  display:flex;
+  justify-content: flex-end;
+}
+.btn {
+  margin: 10px;
+  border-radius: 5px;
+  transform: scale(2);
+  transition: transform 500ms ease;
+}
+.btn-about {
+  float: right;
+  transform: scale(2);
+}
+.btn-back, .btn-next {
+  transform: scale(2);
+}
+.btn:hover {
+  transform: scale(2.3);
+}
+.stack-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.stack-item {
+  margin: 10px;
+  padding: 3px;
+  text-align: center;
+  border: #000 solid 1px;
+  border-radius: 10px;
+  flex: 24%;
+}
+.App{
+  min-width: 450px;
+  max-width: 1000px;
+}

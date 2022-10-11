@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "position": "Web designer",
+    "level": "Middle",
+    "stack": ["Figma", "HTML", "Adobe"],
+    "salary": "60.000",
+    "location": "Moskow",
+    "company": "Yandex",
+    "color": "#fff1d5"
+  },
+  {
+    "id": 2,
+    "position": "Front-end Developer",
+    "level": "Senior",
+    "stack": ["React", "JavaScript", "Node.js"],
+    "salary": "110.000",
+    "location": "Ivanovo",
+    "company": "Gemforge",
+    "color": "#d5f5ff"
+  },
+  {
+    "id": 3,
+    "position": "React Developer",
+    "level": "Junior",
+    "stack": ["React", "JavaScript", "Redux"],
+    "salary": "45.000",
+    "location": "Ivanovo",
+    "company": "Gemforge",
+    "color": "#d5f5ff"
+  },
+  {
+    "id": 4,
+    "position": "QA Engineer",
+    "level": "Junior",
+    "stack": ["Testing", "SQL"],
+    "salary": "25.000",
+    "location": "Moskow",
+    "company": "Melnica",
+    "color": "#e3ffe4"
+  }
+]
